@@ -1,0 +1,77 @@
+.App{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "col1 col2 col3";
+}
+.col1 { 
+  grid-area: col1;
+  background-color: transparent;
+	cursor:pointer;
+	color: #000;
+	font-family:Arial;
+	font-size:20px;
+	padding:8px 17px;
+	text-decoration:none;
+	border-radius: 12px;
+	border-color: transparent;
+ }
+.col2 {
+   grid-area: col2; 
+   font-size: 25px;
+  }
+.col3 { 
+  grid-area: col3; 
+  background-color: transparent;
+  cursor:pointer;
+  color: #000;
+  font-family:Arial;
+  font-size:20px;
+  padding:8px 17px;
+  text-decoration:none;
+  border-radius: 12px;
+  border-color: transparent;
+}
+.beep{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "left right";
+}
+.left { grid-area: left; }
+.right { grid-area: right; }
+.content {
+  
+  max-width: 440px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 100px;
+}
+.start{
+	background-color: transparent;
+	cursor:pointer;
+	color: #000;
+	font-family:Arial;
+	font-size:20px;
+	padding:8px 17px;
+	text-decoration:none;
+	border-radius: 12px;
+	border-color: transparent;
+}
+.time{
+	font-size: 40px;
+}
+.bet{
+	font-size: 20px;
+}
+.ses{
+	font-size: 30px;
+}
